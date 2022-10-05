@@ -9,15 +9,9 @@ class SpecialChars111020 extends StatelessWidget {
       appBar: AppBar(),
       body: Column(
         children: [
-          const Text('hi'),
           Expanded(
             child: SizedBox.expand(
-              child: Image.asset('assets/사진.png', fit: BoxFit.cover),
-            ),
-          ),
-          Expanded(
-            child: SizedBox.expand(
-              child: Image.asset('assets/사진.jpeg', fit: BoxFit.cover),
+              child: Image.asset('assets/사진.jpeg', fit: BoxFit.cover),
             ),
           ),
         ],
