@@ -62,7 +62,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - packages/perfetto_compiled/
+    - packages/perfetto_compiled/dist/v29.0-3a9f96aec/assets/dog.jpeg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
