@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
-            Image(image: AssetImage('packages/perfetto_compiled/dist/v29.0-3a9f96aec/assets/dog.jpeg'))
+            Image(image: AssetImage('packages/perfetto_compiled/lib/dist/v29.0-3a9f96aec/assets/dog.jpeg'))
           ],
         ),
       ),

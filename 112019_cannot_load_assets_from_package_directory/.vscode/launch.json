@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "devtools_app",
+            "cwd": "devtools/packages/devtools_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "devtools_app (profile mode)",
+            "cwd": "devtools/packages/devtools_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "devtools_app (release mode)",
+            "cwd": "devtools/packages/devtools_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "perfetto_compiled",
+            "cwd": "devtools/third_party/packages/perfetto_compiled",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "perfetto_compiled (profile mode)",
+            "cwd": "devtools/third_party/packages/perfetto_compiled",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "perfetto_compiled (release mode)",
+            "cwd": "devtools/third_party/packages/perfetto_compiled",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
