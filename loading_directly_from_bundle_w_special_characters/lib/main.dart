@@ -52,7 +52,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounter() {
+  void _loadFont() {
     rootBundle
         .load('assets/ArchivoNarrow-VariableFont[wght].ttf')
         .then((value) => debugPrint('loaded data :) $value'));
@@ -92,9 +92,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+            const Text('Press the button to call rootBundle.load(\'assets/ArchivoNarrow-VariableFont[wght].ttf\''),
+            FilledButton(onPressed: _loadFont, child: const Text('Load font')),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
@@ -104,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: _loadFont,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
