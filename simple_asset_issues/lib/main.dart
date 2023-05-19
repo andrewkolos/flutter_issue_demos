@@ -1,3 +1,4 @@
+import 'package:asset_test_app/asset_shader_126829.dart';
 import 'package:asset_test_app/assets_special_chars_11020.dart';
 import 'package:flutter/material.dart';
 
@@ -41,7 +42,8 @@ class IssueDirectory extends StatelessWidget {
             '#21326 Assets with Space in file names loads only default resolution',
         page: AssetVariantDetection21326(),
       ),
-      _RouteItem(name: "#111020 can't load assets if the filename contains special characters", page: SpecialChars111020() )
+      _RouteItem(name: "#111020 can't load assets if the filename contains special characters", page: SpecialChars111020()),
+      _RouteItem(name: "#126829 can't load shader if it's declared as an asset", page: AssetShader126829())
     ];
     return ListView.builder(
       padding: const EdgeInsets.symmetric(vertical: 20.0),

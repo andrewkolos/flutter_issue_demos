@@ -4,8 +4,8 @@
 # This file should be version controlled.
 
 version:
-  revision: cfe0c2a10c8d9bee05c962974b1e976988962425
-  channel: master
+  revision: 827995819c0f9de9b26957d7764989ea84029883
+  channel: move-java-functions-simple
 
 project_type: app
 
@@ -13,11 +13,11 @@ project_type: app
 migration:
   platforms:
     - platform: root
-      create_revision: cfe0c2a10c8d9bee05c962974b1e976988962425
-      base_revision: cfe0c2a10c8d9bee05c962974b1e976988962425
-    - platform: android
-      create_revision: cfe0c2a10c8d9bee05c962974b1e976988962425
-      base_revision: cfe0c2a10c8d9bee05c962974b1e976988962425
+      create_revision: 827995819c0f9de9b26957d7764989ea84029883
+      base_revision: 827995819c0f9de9b26957d7764989ea84029883
+    - platform: macos
+      create_revision: 827995819c0f9de9b26957d7764989ea84029883
+      base_revision: 827995819c0f9de9b26957d7764989ea84029883
 
   # User provided section
 
